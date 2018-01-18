@@ -1,0 +1,1 @@
+.\nuget\Chutzpah.4.3.6\tools\chutzpah.console.exe /coverage /coveragehtml .\coverage.html /coveragejson .\coverage.json /path .\src

@@ -1,0 +1,25 @@
+{
+  "Compile": {
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ],
+    "Executable": "compile.bat",
+    "Timeout": 30000
+  },
+
+  "Framework": "jasmine",
+
+  "Tests": [
+    { "Includes": [ "*.spec.ts" ] }
+  ],
+
+  "CodeCoverageExcludes": [ "*\\src\\*.spec.js" ],
+
+  "CodeCoverageIncludes": [ "*\\src\\*.js" ],
+
+  "References": [
+    { "Path": "nuget/angularjs.1.6.6/content/Scripts/angular.js" },
+    { "Path": "nuget/angularjs.1.6.6/content/Scripts/angular-mocks.js" },
+    { "Path": "src/some-angular-controller.js" },
+    { "Path": "src/some-module.js" }
+  ]
+}

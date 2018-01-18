@@ -1,0 +1,1 @@
+.\nuget\Microsoft.TypeScript.Compiler.1.8.11\tools\tsc.exe -p %cd%
