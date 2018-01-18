@@ -10,7 +10,7 @@ nuget install
 
 **to run tests:**
 ```sh
-compile.bat
+test-runner.bat
 ```
 **see coverage.html in the root of the project**
 
