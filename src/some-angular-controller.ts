@@ -15,6 +15,5 @@ class SomeAngularController {
 
 SomeAngularController.$inject = ['$rootScope', '$scope',];
 
-
 angular.module('someModule', []).controller('SomeAngularController', SomeAngularController);
 

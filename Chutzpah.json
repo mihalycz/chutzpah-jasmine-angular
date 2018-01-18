@@ -2,8 +2,8 @@
   "Compile": {
     "Extensions": [ ".ts" ],
     "ExtensionsWithNoOutput": [ ".d.ts" ],
-    "Executable": "compile.bat",
-    "Timeout": 30000
+    "UseSourceMaps": true,
+    "Executable": "compile.bat"
   },
 
   "Framework": "jasmine",
