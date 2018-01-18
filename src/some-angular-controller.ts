@@ -16,5 +16,5 @@ class SomeAngularController {
 SomeAngularController.$inject = ['$rootScope', '$scope',];
 
 
-angular.module('eSimsModule', []).controller('SomeAngularController', SomeAngularController);
+angular.module('someModule', []).controller('SomeAngularController', SomeAngularController);
 

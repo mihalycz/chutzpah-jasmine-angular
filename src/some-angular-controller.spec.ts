@@ -6,6 +6,8 @@ describe('SomController', function () {
     let controller: SomeAngularController;
     let $scope;
 
+    beforeEach(angular.mock.module('someModule'));
+
     beforeEach(angular.mock.inject(function (_$controller_, _$rootScope_) {
         $controller = _$controller_;
         $rootScope = _$rootScope_;
