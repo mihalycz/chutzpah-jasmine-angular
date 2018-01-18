@@ -1,6 +1,6 @@
 // <reference path="some-angular-controller.ts" />
 
-describe('OrSetDetailsController', function () {
+describe('SomController', function () {
     let $controller: angular.IControllerService;
     let $rootScope: angular.IRootScopeService;
     let controller: SomeAngularController;
