@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5"
+  },
+
+  "include": [
+    "src/**/*",
+    "typings/jasmine/jasmine.d.ts",
+    "typings/angularjs/angular.d.ts",
+    "typings/angularjs/angular-mocks.d.ts"
+  ],
+  "exclude": [
+    "nuget"
+  ]
+}
